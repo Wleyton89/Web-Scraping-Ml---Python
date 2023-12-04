@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercadoLibre Scraper</title>
+</head>
+<body>
+    <h1>MercadoLibre Scraper</h1>
+    <form action="/scrape" method="post">
+        <label for="country">Escoge el país:</label>
+        <select name="country" id="country">
+            <option value="1">Argentina</option>
+            <option value="2">Bolivia</option>
+            <!-- Agrega las opciones restantes según tu lista de países -->
+        </select>
+        <br>
+        <label for="product">Producto:</label>
+        <input type="text" name="product" required>
+        <br>
+        <label for="pages">Número de páginas:</label>
+        <input type="number" name="pages" min="1" value="1" required>
+        <br>
+        <input type="submit" value="Scrapear">
+    </form>
+</body>
+</html>
