@@ -14,7 +14,6 @@ Este proyecto tiene como objetivo realizar web scraping en el sitio web de Merca
 ## Integrantes del Proyecto
 
 - **William Leyton:** Desarrollador principal, responsable de la implementación del web scraping y la lógica de la aplicación.
-- **Alejandro Leyton:** Desarrollador Colaborador, contribuyó al diseño de la interfaz web y la estructura general del proyecto.
 
 ## Requisitos
 
@@ -72,4 +71,3 @@ Este proyecto tiene como objetivo realizar web scraping en el sitio web de Merca
 Este proyecto está bajo la [Licencia MIT](LICENSE).
 ```
 
-Recuerda reemplazar `TuUsuario` en la URL del repositorio con tu nombre de usuario de GitHub.
